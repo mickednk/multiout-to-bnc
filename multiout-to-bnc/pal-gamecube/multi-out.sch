@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:multi-out
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -264,7 +263,7 @@ F 3 "~" H 5200 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 4150 5200 4500
+	5200 4150 5200 4250
 Wire Wire Line
 	5200 4700 5200 5000
 $Comp
@@ -314,4 +313,21 @@ Connection ~ 5100 4950
 Wire Wire Line
 	4950 4750 5100 4750
 Connection ~ 5100 4750
+$Comp
+L Device:R_Small R2
+U 1 1 5D47EC1F
+P 5100 4250
+F 0 "R2" H 5159 4296 50  0000 L CNN
+F 1 "75k" H 5159 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5100 4250 50  0001 C CNN
+F 3 "~" H 5100 4250 50  0001 C CNN
+	1    5100 4250
+	0    1    1    0   
+$EndComp
+Connection ~ 5200 4250
+Wire Wire Line
+	5200 4250 5200 4500
+Wire Wire Line
+	5000 4250 4900 4250
+Connection ~ 4900 4250
 $EndSCHEMATC
