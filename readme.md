@@ -25,8 +25,23 @@ It will not work with an NTSC Gamecube because they don't output RGB and I am pr
 | 71-CRCW060375R0FKEAC  | 1         | 75Ohm resistor 603 package    | R2            |
 | 926-LM1881MX/NOPB     | 1         | LM1881 Sync seperator circuit | U2            |
 
-## Connector
+## PS2 to BNC
+This PCB is designed to be used with Playstation 2 ONLY, it wont work with PS1 because it needs caps on the RGB lines to be compatible with PS1.
+
+### Parts needed
+| Mouser part number    | Quantity  | Description                   | Designation   |
+| :---                  | :---:     | :---                          | :---          |
+| 581-06036C104KAT2A    | 2         | 0.1uF capacitor 603 package   | C1, C2        |
+| 71-CRCW0603680KFKEAC  | 1         | 680KOhm resistor 603 package  | R1            |
+| 926-LM1881MX/NOPB     | 1         | LM1881 Sync seperator circuit | U1            |
+
+## Connectors
+### Nintendo consoles
 The PCB is designed to use the knock off multiout connector that can be found at Console5.com (https://console5.com/store/nintendo-snes-super-famicom-n64-av-multi-out-plug-for-custom-rgb-cables-repair.html)
+I have seen it on Aliexpress as well so it shouldn't be to difficult to find.
+
+### Playstation consoles
+The PCB is designed to use the knock off multiout connector that can be found at Console5.com (https://console5.com/store/sony-playstation-1-2-ps1-ps2-av-multi-out-plug-for-custom-rgb-cables-repair.html)
 I have seen it on Aliexpress as well so it shouldn't be to difficult to find.
 
 # Contribute to the project
